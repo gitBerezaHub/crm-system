@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         'shadcn-nuxt',
         '@nuxtjs/color-mode',
         'nuxt-icon',
+        '@pinia/nuxt',
         ['@nuxtjs/google-fonts', {
             families: {
                 Lato: {
@@ -19,5 +20,8 @@ export default defineNuxtConfig({
     shadcn: {
         prefix: 'Ui',
         componentDir: './components/ui'
+    },
+    pinia: {
+        storesDirs: ['./store/**']
     }
 })
