@@ -1,0 +1,6 @@
+export const APP_WRITE_ID = '67a495aa000ef1ac9263'
+export const DB_ID = '67a4a0b90011dfdce0cf'
+export const COLLECTION_DEALS = '67a4a0d200139ef9e994'
+export const COLLECTION_CUSTOMERS = '67a4a24a002afc04f625'
+export const COLLECTION_COMMENTS = '67a4a1960000d12e3fc4'
+export const STORAGE_ID = '67a4a2ac0039bef5109e'
